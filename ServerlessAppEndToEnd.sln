@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRequest", "EmployeeRequest\EmployeeRequest.csproj", "{FABBD06F-445B-4320-9BAC-FEFC1E96AF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeRequest", "EmployeeRequest\EmployeeRequest.csproj", "{FABBD06F-445B-4320-9BAC-FEFC1E96AF57}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ServerlessSolution", "ServerlessSolution\ServerlessSolution.deployproj", "{0ECF2E3C-E220-4A76-9EFC-BA2002171ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{C3875348-2838-462A-AE38-2277DB72B6C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FABBD06F-445B-4320-9BAC-FEFC1E96AF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FABBD06F-445B-4320-9BAC-FEFC1E96AF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FABBD06F-445B-4320-9BAC-FEFC1E96AF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECF2E3C-E220-4A76-9EFC-BA2002171ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECF2E3C-E220-4A76-9EFC-BA2002171ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECF2E3C-E220-4A76-9EFC-BA2002171ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECF2E3C-E220-4A76-9EFC-BA2002171ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3875348-2838-462A-AE38-2277DB72B6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3875348-2838-462A-AE38-2277DB72B6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3875348-2838-462A-AE38-2277DB72B6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3875348-2838-462A-AE38-2277DB72B6C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
