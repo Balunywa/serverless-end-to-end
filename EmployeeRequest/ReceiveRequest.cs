@@ -24,8 +24,8 @@ namespace EmployeeRequest
                 // Get request body and serialize to a form
                 var form = await req.Content.ReadAsAsync<Form>();
 
-                byte[] socialCard = Convert.FromBase64String(form.docs.SocialSecurityCard.Substring(form.docs.SocialSecurityCard.IndexOf(',')));
-                byte[] driversLicense = Convert.FromBase64String(form.docs.DriversLicense.Substring(form.docs.DriversLicense.IndexOf(',')));
+                byte[] socialCard = Convert.FromBase64String(form.docs.SocialSecurityCard);
+                byte[] driversLicense = Convert.FromBase64String(form.docs.DriversLicense);
 
                 // Store the employee data
                 form.employee.socialImage = await WriteToBlob($"employee-artifacts/{form.employee.alias}-social.png", socialCard, binder);
